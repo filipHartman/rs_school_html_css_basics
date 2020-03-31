@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  background-color: #e7e9e1;
+  font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+  --primary-color: #4c5eab;
+  --header-height: 10rem;
+  --footer-height: 3rem;
+  --content-height: calc(100vh - var(--header-height) - var(--footer-height));
+  --avatar-radius: 6rem;
+  --aside-width: 30%;
+  --content-width: calc(100% - var(--aside-width));
+}
+
+.header {
+  background-color: var(--primary-color);
+  height: var(--header-height);
+}
+
+.title {
+  position: relative;
+  top: calc(var(--header-height) / 6);
+  height: calc(2 * var(--header-height) / 3);
+  width: 70%;
+  float: left;
+}
+
+.avatar {
+  height: var(--avatar-radius);
+  width: var(--avatar-radius);
+  background-color: #d6d6d6;
+  border-radius: 50%;
+  display: block;
+  position: relative;
+  left: 4rem;
+  float: left;
+}
+
+.person {
+  position: relative;
+  top: 1rem;
+  left: 5rem;
+}
+
+.name {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.125rem;
+}
+
+.job {
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.contact {
+  position: relative;
+  float: right;
+  width: 30%;
+  list-style-type: none;
+  top: calc(var(--header-height) / 6);
+  height: calc(2 * var(--header-height) / 3);
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 400;
+}
+
+.contact ul {
+  margin: 0;
+}
+
+.contact li {
+  margin-bottom: 15px;
+}
+
+.content {
+  height: var(--content-height);
+}
+
+.info {
+  background-color: #fafafa;
+  width: var(--aside-width);
+  height: inherit;
+  float: left;
+}
+
+.info h3 {
+  display: inline;
+  margin-left: 0.5rem;
+}
+
+.info div {
+  margin-left: 3rem;
+  margin-right: 1rem;
+  height: 25%;
+}
+
+.profile-info {
+  margin-top: 1rem;
+}
+
+.profile-info p {
+  font-size: 0.875rem;
+}
+.circle-icon {
+  border-radius: 2rem;
+  padding: 0.5rem;
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.portfolio {
+  background-color: #ffffff;
+  width: var(--content-width);
+  height: inherit;
+  float: right;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  background-color: var(--primary-color);
+  height: var(--footer-height);
+  width: 100%;
+}
