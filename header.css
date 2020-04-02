@@ -1,0 +1,64 @@
+.header {
+    background-color: var(--primary-color);
+    height: var(--header-height);
+  }
+  
+  .title {
+    position: relative;
+    top: calc(var(--header-height) / 6);
+    height: calc(2 * var(--header-height) / 3);
+    width: 70%;
+    float: left;
+  }
+  
+  .avatar {
+    height: var(--avatar-radius);
+    width: var(--avatar-radius);
+    background-color: #d6d6d6;
+    border-radius: 50%;
+    display: block;
+    position: relative;
+    left: 5rem;
+    float: left;
+  }
+  
+  .person {
+    position: relative;
+    top: 1rem;
+    left: 6rem;
+  }
+  
+  .name {
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 0.125rem;
+  }
+  
+  .job {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  
+  .contact {
+    position: relative;
+    float: right;
+    width: 30%;
+    list-style-type: none;
+    top: calc(var(--header-height) / 6);
+    height: calc(2 * var(--header-height) / 3);
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 400;
+    left: 2rem;
+  }
+  
+  .contact ul {
+    margin: 0;
+  }
+  
+  .contact li {
+    margin-bottom: 15px;
+  }
+  

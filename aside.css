@@ -1,0 +1,73 @@
+.info {
+    background-color: #fafafa;
+    width: var(--aside-width);
+    height: inherit;
+    float: left;
+  }
+  
+  .info h3 {
+    display: inline;
+    margin-left: 0.5rem;
+  }
+  
+  .info section {
+    margin-left: 5rem;
+    margin-right: 1rem;
+  }
+  
+  .profile-info {
+    margin-top: 1rem;
+  }
+  
+  .profile-info p {
+    font-size: 1rem;
+  }
+  .circle-icon {
+    border-radius: 1.75rem;
+    padding: 0.5rem;
+    background-color: var(--primary-color);
+    color: white;
+  }
+  
+  .interests-container {
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.interests-container div {
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.interests-container div i {
+    display: block;
+    color: var(--primary-color);
+    border-radius: 1.75rem;
+    padding: 1rem;
+    border: 6px solid var(--primary-color);
+}
+
+.interests-container div label {
+    display: block;
+}
+
+.interests-container div:not(:last-child) {
+  margin-right: 2rem;
+}
+ 
+  
+  .horizontal {
+    display: inline-block;
+    text-align: center;
+  }
+
+  
+    
+  .horizontal i {
+    color: var(--primary-color);
+    border-radius: 1.75rem;
+    padding: 0.5rem;
+    border: 6px solid var(--primary-color);
+    display: block;
+  }
